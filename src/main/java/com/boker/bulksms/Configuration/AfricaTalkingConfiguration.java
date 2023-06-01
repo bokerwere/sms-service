@@ -12,4 +12,6 @@ public class AfricaTalkingConfiguration {
     private String userName;
     @Value("${sms.api_key}")
     private String apiKey;
+    @Value("${sms.base_url}")
+    private String baseUrl;
 }

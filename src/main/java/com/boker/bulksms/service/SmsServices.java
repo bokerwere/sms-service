@@ -4,4 +4,5 @@ import com.boker.bulksms.dto.SmsRequest;
 
 public interface SmsServices {
     String sendSMS(SmsRequest smsRequest);
+    void sendSms();
 }
