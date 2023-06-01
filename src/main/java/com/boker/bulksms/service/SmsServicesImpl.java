@@ -42,7 +42,7 @@ public class SmsServicesImpl implements SmsServices {
          sms.send(smsRequest.getMessage(), "boker-1", new String[]{String.format("%s",smsRequest.getPhoneNumbers())},true);
         return "success";
     }
-    @PostConstruct
+
 
     @Override
     public void sendSms() {
